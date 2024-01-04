@@ -1,0 +1,13 @@
+[
+  {
+      "name": "canonical_bridge",
+      "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
+      "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
+      "icon": "https://i.imgur.com/y0JEPfQ.png",
+      "framework": "Anchor",
+      "program_address": "bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF",
+      "categories": [
+          "Bridge"
+      ]
+  }
+]
