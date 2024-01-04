@@ -17,7 +17,7 @@ To submit your program to the Eclipse Solana Program Registry, you need to creat
 
 Add an entry for your program in the `programs.json` file with the following format:
 
-\```json
+```json
 {
   "name": "<your_program_name>",
   "description": "<description_of_your_program>",
@@ -29,11 +29,11 @@ Add an entry for your program in the `programs.json` file with the following for
     "<category1>", "<category2>", ...
   ]
 }
-\```
+```
 
 Replace the placeholders with your program's details. Here's an example using the Eclipse Canonical Bridge:
 
-\```json
+```json
 [
   {
     "name": "canonical_bridge",
@@ -47,7 +47,7 @@ Replace the placeholders with your program's details. Here's an example using th
     ]
   }
 ]
-\```
+```
 
 ### 2. Publish Your IDL on Eclipse Network(s)
 
