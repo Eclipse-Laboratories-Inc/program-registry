@@ -1,4 +1,4 @@
-# Eclipse Solana Program Registry
+# Eclipse Program Registry
 
 Welcome to the Eclipse Solana Program Registry! This registry serves as a (not entirely) comprehensive list of programs running on the Eclipse network. Follow the steps below to add your program to the registry.
 
