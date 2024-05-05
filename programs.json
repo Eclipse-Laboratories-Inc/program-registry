@@ -1,13 +1,13 @@
 [
   {
-      "name": "canonical_bridge",
-      "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
-      "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
+      "name": "nft_minter",
+      "description": "Nft minter on Eclipse network",
+      "repo": "https://github.com/piscu7/nft-minter",
       "icon": "https://i.imgur.com/y0JEPfQ.png",
       "framework": "Anchor",
-      "program_address": "bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF",
+      "program_address": "DkFcHbDhiDpSretYyV4TGiyJZCKZh4Mvpzp4imw277q1",
       "categories": [
-          "Bridge"
+          "NftMinter"
       ]
   }
 ]
