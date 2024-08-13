@@ -9,5 +9,15 @@
       "categories": [
           "Bridge"
       ]
+  } {
+      "name": "Lifinity",
+      "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
+      "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
+      "icon": "https://v1.lifinity.io/logo/LFNTY.svg",
+      "framework": "Anchor",
+      "program_address": "LfacfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
+      "categories": [
+          "DEX"
+      ]
   }
 ]
