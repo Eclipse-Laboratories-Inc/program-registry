@@ -1,23 +1,29 @@
 [
   {
-      "name": "canonical_bridge",
-      "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
-      "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
-      "icon": "https://i.imgur.com/y0JEPfQ.png",
-      "framework": "Anchor",
-      "program_address": "bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF",
-      "categories": [
-          "Bridge"
-      ]
-  } {
-      "name": "Lifinity",
-      "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
-      "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
-      "icon": "https://v1.lifinity.io/logo/LFNTY.svg",
-      "framework": "Anchor",
-      "program_address": "LfacfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
-      "categories": [
-          "DEX"
-      ]
+    "name": "canonical_bridge",
+    "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
+    "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
+    "icon": "https://i.imgur.com/y0JEPfQ.png",
+    "framework": "Anchor",
+    "program_address": "bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF",
+    "categories": ["Bridge"]
+  },
+  {
+    "name": "Lifinity",
+    "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
+    "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
+    "icon": "https://v1.lifinity.io/logo/LFNTY.svg",
+    "framework": "Anchor",
+    "program_address": "LfacfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
+    "categories": ["DEX"]
+  },
+  {
+    "name": "Blobscriptions",
+    "description": "Blobscription is a NFT Launchpad and Marketplace that provides infrastructure for a novel open Standard for NFTs and Inscriptions on Data Availability Layers",
+    "repo": "https://github.com/blobscriptions/blobscriptions",
+    "icon": "https://blobscriptions.xyz/blobscriptions-logo.png",
+    "framework": "NextJS",
+    "program_address": "",
+    "categories": ["NFT Marketplace", "Nft Launchpad", "Nft infra"]
   }
 ]
