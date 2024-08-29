@@ -9,7 +9,7 @@
       "categories": [
           "Bridge"
       ]
-  } {
+  }, {
       "name": "Lifinity",
       "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
       "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
@@ -19,5 +19,27 @@
       "categories": [
           "DEX"
       ]
-  }
+  },
+  {
+    "name": "decalls_prediction",
+    "description": "DeCalls is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool",
+    "repo": "https://github.com/endlesstechjourney/decalls-public",
+    "icon": "https://github.com/endlesstechjourney/decalls-public/blob/main/DeCalls_logo_white_high.png",
+    "framework": "Anchor",
+    "program_address": "DcZMKcjz34CcXF1vx7CkfARZdmEja2Kcwvspu1Zw6Zmn",
+    "categories": [
+        "Dapp"
+    ]
+},
+{
+    "name": "decalls_revshare",
+    "description": "TDeCalls is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool",
+    "repo": "https://github.com/endlesstechjourney/decalls-public",
+    "icon": "https://github.com/endlesstechjourney/decalls-public/blob/main/DeCalls_logo_white_high.png",
+    "framework": "Anchor",
+    "program_address": "ELexZoFHkSHYiAxw1jtY3se8RVPEjsL4HGqD4mfkMreZ",
+    "categories": [
+        "Dapp"
+    ]
+}
 ]
