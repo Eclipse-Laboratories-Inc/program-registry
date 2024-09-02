@@ -9,7 +9,7 @@
       "categories": [
           "Bridge"
       ]
-  } {
+  }, {
       "name": "Lifinity",
       "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
       "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
@@ -19,5 +19,15 @@
       "categories": [
           "DEX"
       ]
+  }, {
+    "name": "Orca",
+    "description": "Orca is the primary liquidity layer of Eclipse where users can quickly, affordably, and reliably transact on a peer-to-peer basis trading or providing liquidity of SPL tokens.",
+    "repo": "https://github.com/orca-so/whirlpools",
+    "icon": "https://i.imgur.com/eTO4KwA.png",
+    "framework": "Anchor",
+    "program_address": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "categories": [
+        "DEX"
+    ]
   }
 ]
