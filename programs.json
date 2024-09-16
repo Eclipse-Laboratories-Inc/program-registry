@@ -9,7 +9,7 @@
       "categories": [
           "Bridge"
       ]
-  } {
+  }, {
       "name": "Lifinity",
       "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
       "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
@@ -19,5 +19,15 @@
       "categories": [
           "DEX"
       ]
+  }, {
+    "name": "Save",
+    "description": "save lending protocol",
+    "repo": "https://github.com/solendprotocol/solana-program-library",
+    "icon": "https://save.finance/assets/tokens/save.svg",
+    "framework": "n/a",
+    "program_address": "So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo",
+    "categories": [
+      "borrow", "lend"
+    ]
   }
 ]
