@@ -9,7 +9,7 @@
       "categories": [
           "Bridge"
       ]
-  } {
+  }, {
       "name": "Lifinity",
       "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
       "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
@@ -19,5 +19,14 @@
       "categories": [
           "DEX"
       ]
+  },
+{
+    "name": "EclipseGames",
+    "description": "Support for the creation of mini-games on the Eclipse blockchain",
+    "repo": "https://github.com/cryptohunter0x1/EclipseGames.git",
+    "icon": "https://i.imgur.com/YU8jVSb.jpeg",
+    "framework": "Anchor",
+    "program_address": "GYLvUjL1JUjFfqVvEK4C8EKFMh93B1ZzrQsQceRDEHeB",
+    "categories": ["games"]
   }
 ]
