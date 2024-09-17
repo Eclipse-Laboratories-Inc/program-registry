@@ -9,7 +9,7 @@
       "categories": [
           "Bridge"
       ]
-  } {
+  }, {
       "name": "Lifinity",
       "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
       "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
@@ -19,5 +19,16 @@
       "categories": [
           "DEX"
       ]
-  }
+  },
+  {
+    "name": "Canonical Bridge",
+    "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain. With a new UX !",
+    "repo": "https://github.com/Hugo-SEQUIER/eclipse-bridge",
+    "icon": "https://eclipse-bridge.trophe.net/eclipse-logo.jpg",
+    "framework": "ReactJS",
+    "program_address": "bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF",
+    "categories": [
+        "Bridge"
+    ]
+}
 ]
