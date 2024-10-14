@@ -1,32 +1,47 @@
 [
   {
-      "name": "canonical_bridge",
-      "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
-      "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
-      "icon": "https://i.imgur.com/y0JEPfQ.png",
-      "framework": "Anchor",
-      "program_address": "br1xwubggTiEZ6b7iNZUwfA3psygFfaXGfZ1heaN9AW",
-      "categories": [
-          "Bridge"
-      ]
-  }, {
-      "name": "Lifinity",
-      "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
-      "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
-      "icon": "https://v1.lifinity.io/logo/LFNTY.svg",
-      "framework": "Anchor",
-      "program_address": "LfacfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
-      "categories": [
-          "DEX"
-      ]
+    "name": "canonical_bridge",
+    "description": "The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain",
+    "repo": "https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge",
+    "icon": "https://i.imgur.com/y0JEPfQ.png",
+    "framework": "Anchor",
+    "program_address": "br1xwubggTiEZ6b7iNZUwfA3psygFfaXGfZ1heaN9AW",
+    "categories": [
+      "Bridge"
+    ]
   },
-{
+  {
+    "name": "Lifinity",
+    "description": "The first oracle-based DEX on Eclipse, designed to improve capital efficiency and reduce impermanent loss.",
+    "repo": "https://github.com/Lifinity-Labs/lifinity-amm-v2-eclipse",
+    "icon": "https://v1.lifinity.io/logo/LFNTY.svg",
+    "framework": "Anchor",
+    "program_address": "LfacfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
+    "categories": [
+      "DEX"
+    ]
+  },
+  {
     "name": "EclipseGames",
     "description": "Support for the creation of mini-games on the Eclipse blockchain",
     "repo": "https://github.com/cryptohunter0x1/EclipseGames.git",
     "icon": "https://i.imgur.com/YU8jVSb.jpeg",
     "framework": "Anchor",
     "program_address": "GYLvUjL1JUjFfqVvEK4C8EKFMh93B1ZzrQsQceRDEHeB",
-    "categories": ["games"]
+    "categories": [
+      "games"
+    ]
+  },
+  {
+    "name": "Save",
+    "description": "save lending protocol",
+    "repo": "https://github.com/solendprotocol/solana-program-library",
+    "icon": "https://save.finance/assets/tokens/save.svg",
+    "framework": "n/a",
+    "program_address": "So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo",
+    "categories": [
+      "borrow",
+      "lend"
+    ]
   }
 ]
