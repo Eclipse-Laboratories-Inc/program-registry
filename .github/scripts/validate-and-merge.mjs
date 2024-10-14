@@ -1,7 +1,8 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 const fs = require('fs');
-const { Octokit } = require('@octokit/rest');
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
 
 const owner = process.env.REPO_OWNER;
 const repo = process.env.REPO_NAME;
@@ -18,6 +19,8 @@ const requiredKeys = [
 ];
 
 async function validateAndMerge() {
+  const { Octokit } = await import('@octokit/rest');
+  const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   try {
     const { data: pr } = await octokit.pulls.get({
       owner,

@@ -21,4 +21,4 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
-        run: node .github/scripts/validate-and-merge.js
+        run: node --experimental-modules .github/scripts/validate-and-merge.js
