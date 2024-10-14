@@ -54,5 +54,16 @@
     "categories": [
         "DEX"
     ]
+  },
+  {
+    "name": "Blip Radar",
+    "description": "Send messages to any wallet",
+    "repo": "https://github.com/Eclipse-Validators/blip-radar",
+    "icon": "https://avatars.githubusercontent.com/u/177390705?v=4",
+    "framework": "Anchor",
+    "program_address": "rdr1DeFWkwG6nQfammDLTzRT6uW32t7yEHWCmcr49Df",
+    "categories": [
+      "NFT", "Messaging"
+    ]
   }
 ]
