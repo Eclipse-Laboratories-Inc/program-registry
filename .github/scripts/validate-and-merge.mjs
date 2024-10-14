@@ -59,7 +59,7 @@ async function validateAndMerge() {
     const content = Buffer.from(fileContent.content, 'base64').toString('utf-8');
     
     // Parse all YAML documents in the file
-    const yamlDocuments = yaml.loadAll(content);
+    const yamlDocuments = yaml.load(content);
 
     for (const document of yamlDocuments) {
       const isValid = validateSubdocument(document);
