@@ -1,9 +1,9 @@
 import { createRequire } from 'module';
 import fetch from 'node-fetch';
+import yaml from 'js-yaml';
+
 const require = createRequire(import.meta.url);
 const fs = require('fs');
-
-
 
 const owner = process.env.REPO_OWNER;
 const repo = process.env.REPO_NAME;
@@ -28,6 +28,7 @@ async function validateAndMerge() {
       fetch: fetch,
     },
   });
+
   try {
     const { data: pr } = await octokit.pulls.get({
       owner,
@@ -35,29 +36,43 @@ async function validateAndMerge() {
       pull_number,
     });
 
-    const { data: diff } = await octokit.pulls.get({
+    const { data: files } = await octokit.pulls.listFiles({
       owner,
       repo,
       pull_number,
-      mediaType: { format: 'diff' }
     });
 
-    const addedLines = diff.split('\n')
-      .filter(line => line.startsWith('+') && !line.startsWith('+++'))
-      .map(line => line.slice(1).trim());
-
-    const addedContent = JSON.parse(addedLines.join(''));
-
-    const isValid = requiredKeys.every(key => key in addedContent);
-
-    if (!isValid) {
-      console.log('Added object does not contain all required keys');
+    const yamlFile = files.find(file => file.filename.endsWith('.yaml') || file.filename.endsWith('.yml'));
+    
+    if (!yamlFile) {
+      console.log('No YAML file found in the PR');
       return;
     }
 
-    if (!Array.isArray(addedContent.categories) || addedContent.categories.length === 0) {
-      console.log('Categories must be a non-empty array');
-      return;
+    const { data: fileContent } = await octokit.repos.getContent({
+      owner,
+      repo,
+      path: yamlFile.filename,
+      ref: pr.head.ref,
+    });
+
+    const content = Buffer.from(fileContent.content, 'base64').toString('utf-8');
+    
+    // Parse all YAML documents in the file
+    const yamlDocuments = yaml.loadAll(content);
+
+    for (const document of yamlDocuments) {
+      const isValid = requiredKeys.every(key => key in document);
+
+      if (!isValid) {
+        console.log('Added object does not contain all required keys');
+        return;
+      }
+
+      if (!Array.isArray(document.categories) || document.categories.length === 0) {
+        console.log('Categories must be a non-empty array');
+        return;
+      }
     }
 
     await octokit.pulls.merge({
