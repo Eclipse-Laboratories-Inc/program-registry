@@ -62,15 +62,9 @@ async function validateAndMerge() {
     const yamlDocuments = yaml.loadAll(content);
 
     for (const document of yamlDocuments) {
-      const isValid = requiredKeys.every(key => key in document);
-
+      const isValid = validateSubdocument(document);
       if (!isValid) {
-        console.log(JSON.parse(document) + ' is missing required keys');
-        return;
-      }
-
-      if (!Array.isArray(document.categories) || document.categories.length === 0) {
-        console.log('Categories must be a non-empty array');
+        console.log(`Invalid subdocument: ${JSON.stringify(document)}`);
         return;
       }
     }
@@ -86,6 +80,22 @@ async function validateAndMerge() {
   } catch (error) {
     console.error('Error:', error.message);
   }
+}
+
+function validateSubdocument(subdocument) {
+  const isValid = requiredKeys.every(key => key in subdocument);
+
+  if (!isValid) {
+    console.log(`Subdocument is missing required keys: ${JSON.stringify(subdocument)}`);
+    return false;
+  }
+
+  if (!Array.isArray(subdocument.categories) || subdocument.categories.length === 0) {
+    console.log('Categories must be a non-empty array');
+    return false;
+  }
+
+  return true;
 }
 
 validateAndMerge();
