@@ -35,17 +35,6 @@ async function validateAndMerge() {
       pull_number,
     });
 
-    const { data: files } = await octokit.pulls.listFiles({
-      owner,
-      repo,
-      pull_number,
-    });
-
-    const jsonFile = files.find(file => file.filename === 'programs.json');
-    if (!jsonFile || files.length > 1) {
-      console.log('PR does not modify only the target JSON file');
-      return;
-    }
     const { data: diff } = await octokit.pulls.get({
       owner,
       repo,
