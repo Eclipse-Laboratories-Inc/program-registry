@@ -87,5 +87,14 @@
     "categories": [
         "Dapp"
     ]
+},
+{
+  "name": "Blobscriptions",
+  "description": "Blobscription is a NFT Launchpad and Marketplace that provides infrastructure for a novel open Standard for NFTs and Inscriptions on Data Availability Layers",
+  "repo": "https://github.com/blobscriptions/blobscriptions",
+  "icon": "https://blobscriptions.xyz/blobscriptions-logo.png",
+  "framework": "NextJS",
+  "program_address": "",
+  "categories": ["NFT Marketplace", "Nft Launchpad", "Nft infra"]
 }
 ]
