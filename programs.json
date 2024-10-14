@@ -52,7 +52,7 @@
     "framework": "Anchor",
     "program_address": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
     "categories": [
-        "DEX"
+      "DEX"
     ]
   },
   {
@@ -63,7 +63,8 @@
     "framework": "Anchor",
     "program_address": "rdr1DeFWkwG6nQfammDLTzRT6uW32t7yEHWCmcr49Df",
     "categories": [
-      "NFT", "Messaging"
+      "NFT",
+      "Messaging"
     ]
   },
   {
@@ -74,10 +75,10 @@
     "framework": "Anchor",
     "program_address": "DcZMKcjz34CcXF1vx7CkfARZdmEja2Kcwvspu1Zw6Zmn",
     "categories": [
-        "Dapp"
+      "Dapp"
     ]
-},
-{
+  },
+  {
     "name": "decalls_revshare",
     "description": "TDeCalls is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool",
     "repo": "https://github.com/endlesstechjourney/decalls-public",
@@ -85,16 +86,20 @@
     "framework": "Anchor",
     "program_address": "ELexZoFHkSHYiAxw1jtY3se8RVPEjsL4HGqD4mfkMreZ",
     "categories": [
-        "Dapp"
+      "Dapp"
     ]
-},
-{
-  "name": "Blobscriptions",
-  "description": "Blobscription is a NFT Launchpad and Marketplace that provides infrastructure for a novel open Standard for NFTs and Inscriptions on Data Availability Layers",
-  "repo": "https://github.com/blobscriptions/blobscriptions",
-  "icon": "https://blobscriptions.xyz/blobscriptions-logo.png",
-  "framework": "NextJS",
-  "program_address": "",
-  "categories": ["NFT Marketplace", "Nft Launchpad", "Nft infra"]
-}
+  },
+  {
+    "name": "Blobscriptions",
+    "description": "Blobscription is a NFT Launchpad and Marketplace that provides infrastructure for a novel open Standard for NFTs and Inscriptions on Data Availability Layers",
+    "repo": "https://github.com/blobscriptions/blobscriptions",
+    "icon": "https://blobscriptions.xyz/blobscriptions-logo.png",
+    "framework": "NextJS",
+    "program_address": "",
+    "categories": [
+      "NFT Marketplace",
+      "Nft Launchpad",
+      "Nft infra"
+    ]
+  }
 ]
