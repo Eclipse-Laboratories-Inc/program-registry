@@ -20,7 +20,14 @@ const requiredKeys = [
 
 async function validateAndMerge() {
   const { Octokit } = await import('@octokit/rest');
-  const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+  const fetch = await import("node-fetch");
+
+  const octokit = new Octokit({
+    auth: process.env.GITHUB_TOKEN,
+    request: {
+      fetch: fetch,
+    },
+  });
   try {
     const { data: pr } = await octokit.pulls.get({
       owner,
