@@ -101,16 +101,6 @@
       "Nft Launchpad",
       "Nft infra"
     ]
-  },
-  {
-    "name": "A TEST PROGRAM",
-    "description": "testin",
-    "repo": "test.com",
-    "icon": "test",
-    "framework": "Anchor",
-    "program_address": "t3stfEjtujQTWBXZVzgkiPBw7Mt4guHSsmAi7y3cycL",
-    "categories": [
-      "DEX"
-    ]
   }
+ 
 ]
