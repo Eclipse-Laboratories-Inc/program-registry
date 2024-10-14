@@ -1,4 +1,5 @@
 import { createRequire } from 'module';
+import fetch from 'node-fetch';
 const require = createRequire(import.meta.url);
 const fs = require('fs');
 
@@ -20,7 +21,6 @@ const requiredKeys = [
 
 async function validateAndMerge() {
   const { Octokit } = await import('@octokit/rest');
-  const fetch = await import("node-fetch");
 
   const octokit = new Octokit({
     auth: process.env.GITHUB_TOKEN,
