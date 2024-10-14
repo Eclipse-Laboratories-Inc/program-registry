@@ -1,0 +1,16 @@
+{
+  "name": "program-registry",
+  "version": "1.0.0",
+  "description": "Welcome to the Eclipse Solana Program Registry! This registry serves as a (not entirely) comprehensive list of programs running on the Eclipse network. Follow the steps below to add your program to the registry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}
