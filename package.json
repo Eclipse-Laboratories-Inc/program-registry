@@ -11,6 +11,7 @@
   "type": "module",
   "dependencies": {
     "@octokit/rest": "^21.0.2",
+    "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2"
   }
 }
