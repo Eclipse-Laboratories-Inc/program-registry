@@ -46,22 +46,6 @@ async function validateAndMerge() {
       console.log('PR does not modify only the target JSON file');
       return;
     }
-
-    const { data: fileContent } = await octokit.repos.getContent({
-      owner,
-      repo,
-      path: jsonFile.filename,
-      ref: pr.head.ref,
-    });
-
-    const content = Buffer.from(fileContent.content, 'base64').toString('utf-8');
-    const jsonContent = JSON.parse(content);
-
-    if (!Array.isArray(jsonContent)) {
-      console.log('JSON content is not an array');
-      return;
-    }
-
     const { data: diff } = await octokit.pulls.get({
       owner,
       repo,
