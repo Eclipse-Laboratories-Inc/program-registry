@@ -65,7 +65,7 @@ async function validateAndMerge() {
       const isValid = requiredKeys.every(key => key in document);
 
       if (!isValid) {
-        console.log('Added object does not contain all required keys');
+        console.log(document + ' is missing required keys');
         return;
       }
 
