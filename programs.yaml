@@ -91,3 +91,12 @@
   program_address: B1fKCaqtdN5SMKet292QD88t2jFThuk6FGVVNrNBKbt4
   categories: 
     - AI
+
+- name: solar_cp_swap
+  description: Constant product AMM program on Eclipse optimized for straightforward pool deployment along with additional features and integrations
+  repo: https://github.com/Solar-Studio/solar-cp-swap
+  icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
+  framework: Anchor
+  program_address: "sooGfQwJ6enHfLTPfasFZtFR7DgobkJD77maDNEqGkD"
+  categories:
+    - DEX
