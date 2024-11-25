@@ -88,7 +88,7 @@
   repo: https://github.com/Solar-Studio/solar-cp-swap
   icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
   framework: Anchor
-  program_address: "sooGfQwJ6enHfLTPfasFZtFR7DgobkJD77maDNEqGkD"
+  program_address: sooGfQwJ6enHfLTPfasFZtFR7DgobkJD77maDNEqGkD
   categories:
     - DEX
 
@@ -97,7 +97,7 @@
   repo: https://github.com/Solar-Studio/solar-clmm
   icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
   framework: Anchor
-  program_address: "CLsiWisG9Ek7dFgD8ENYtxLBbMEVxB64M3wD4f2XuZSn"
+  program_address: CLsiWisG9Ek7dFgD8ENYtxLBbMEVxB64M3wD4f2XuZSn
   categories:
     - DEX
 
