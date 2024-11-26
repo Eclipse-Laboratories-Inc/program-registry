@@ -101,3 +101,11 @@
   categories:
     - DEX
 
+- name: Invariant
+  description: Invariant is the first-ever DEX on Eclipse and the first to leverage the Concentrated Liquidity model. It provides highly efficient, cost-effective, and scalable trading, maximizing capital efficiency and enhancing overall liquidity.
+  repo: https://github.com/invariant-labs/protocol-eclipse
+  icon: https://invariant.app/logo.png
+  framework: Anchor
+  program_address: iNvTyprs4TX8m6UeUEkeqDFjAL9zRCRWcexK9Sd4WEU
+  categories:
+    - DEX
