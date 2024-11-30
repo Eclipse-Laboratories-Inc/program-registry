@@ -54,19 +54,19 @@
     - NFT
     - Messaging
 
-- name: decalls_prediction
-  description: DeCalls is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
+- name: sharp_prediction
+  description: Sharp is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
   repo: https://github.com/endlesstechjourney/decalls-public
-  icon: https://github.com/endlesstechjourney/decalls-public/blob/main/DeCalls_logo_white_high.png
+  icon: https://github.com/endlesstechjourney/decalls-public/blob/main/Logomark.png
   framework: Anchor
   program_address: DcZMKcjz34CcXF1vx7CkfARZdmEja2Kcwvspu1Zw6Zmn
   categories:
     - Dapp
 
-- name: decalls_revshare
-  description: TDeCalls is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
+- name: sharp_revshare
+  description: Sharp is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
   repo: https://github.com/endlesstechjourney/decalls-public
-  icon: https://github.com/endlesstechjourney/decalls-public/blob/main/DeCalls_logo_white_high.png
+  icon: https://github.com/endlesstechjourney/decalls-public/blob/main/Logomark.png
   framework: Anchor
   program_address: ELexZoFHkSHYiAxw1jtY3se8RVPEjsL4HGqD4mfkMreZ
   categories:
@@ -97,6 +97,24 @@
   repo: https://github.com/Solar-Studio/solar-cp-swap
   icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
   framework: Anchor
-  program_address: "sooGfQwJ6enHfLTPfasFZtFR7DgobkJD77maDNEqGkD"
+  program_address: sooGfQwJ6enHfLTPfasFZtFR7DgobkJD77maDNEqGkD
+  categories:
+    - DEX
+
+- name: solar_clmm
+  description: solar-clmm is concentrated liquidity market maker (CLMM) program built for the Eclipse Blockchain.
+  repo: https://github.com/Solar-Studio/solar-clmm
+  icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
+  framework: Anchor
+  program_address: CLsiWisG9Ek7dFgD8ENYtxLBbMEVxB64M3wD4f2XuZSn
+  categories:
+    - DEX
+
+- name: Invariant
+  description: Invariant is the first-ever DEX on Eclipse and the first to leverage the Concentrated Liquidity model. It provides highly efficient, cost-effective, and scalable trading, maximizing capital efficiency and enhancing overall liquidity.
+  repo: https://github.com/invariant-labs/protocol-eclipse
+  icon: https://invariant.app/logo.png
+  framework: Anchor
+  program_address: iNvTyprs4TX8m6UeUEkeqDFjAL9zRCRWcexK9Sd4WEU
   categories:
     - DEX
