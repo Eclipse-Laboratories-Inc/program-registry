@@ -109,3 +109,12 @@
   program_address: iNvTyprs4TX8m6UeUEkeqDFjAL9zRCRWcexK9Sd4WEU
   categories:
     - DEX
+
+- name: Soddle
+  description: Daily guess your favorite crypto personalities using hints, tweets and emojis.
+  repo: n/a
+  icon: https://res.cloudinary.com/dbuaprzc0/image/upload/v1733817524/w9l7b0vjr2pspcmlnoji.jpg
+  framework: Anchor
+  program_address: CWsh5DLKys77dgvzTM5fxG5xaEp1cxAoD98BBx36YWBH
+  categories:
+    - games
