@@ -35,7 +35,7 @@ Publish your Interface Definition Language (IDL) on the Eclipse network. The IDL
 
 ### 3. Create a Pull Request
 
-Once you have added your program details to the `programs.json` file and published your IDL, create a pull request to the Eclipse program registry repository.
+Once you have added your program details to the `programs.yaml` file and published your IDL, create a pull request to the Eclipse program registry repository.
 
 ## After Submission
 
