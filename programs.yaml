@@ -119,3 +119,13 @@
   categories:
     - Dapp
 
+- name: Astrol
+  description: Earn, Lend & Borrow with Ease on Eclipse!
+  repo: https://github.com/Astrol-Finance/astrolend-program
+  icon: https://avatars.githubusercontent.com/u/146329210?s=200&v=4
+  framework: Anchor
+  program_address: Astro1oWvtB7cBTwi3efLMFB47WXx7DJDQeoxi235kA
+  categories:
+    - DeFi
+    - Lending
+    - Borrowing
