@@ -31,7 +31,7 @@ Add an entry for your program in the `programs.yaml` file with the following for
 
 ### 2. Publish Your IDL on Eclipse Network(s)
 
-Publish your Interface Definition Language (IDL) on the Eclipse network. The IDL should be accessible publicly. For guidance on how to publish your IDL, refer to [Anchor documentation](https://www.anchor-lang.com/docs/cli#idl). This what it looks like when its done correctly. [Published IDL](https://solscan.io/account/bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF?cluster=custom&customUrl=https%3A%2F%2Ftestnet.dev2.eclipsenetwork.xyz#anchorProgramIDL).
+Publish your Interface Definition Language (IDL) on the Eclipse network. The IDL should be accessible publicly. For guidance on how to publish your IDL, refer to [Anchor documentation](https://www.anchor-lang.com/docs/cli#idl). This is what it looks like when its done correctly. [Published IDL](https://solscan.io/account/bripkhe8bjXg5PUxub3raVpoqZVRBPjTjPgAC22AHHF?cluster=custom&customUrl=https%3A%2F%2Ftestnet.dev2.eclipsenetwork.xyz#anchorProgramIDL).
 
 ### 3. Create a Pull Request
 
