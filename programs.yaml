@@ -138,3 +138,13 @@
     - DeFi
     - Lending
     - Borrowing
+
+- name: Frost Mammoth
+  description: Free the mammoth!
+  repo: https://github.com/Hugo-SEQUIER/mammouth-ts
+  icon: https://frostmammoth.xyz/favicon.ico
+  framework: Anchor
+  program_address: 2YU4ujreHtNHqA27Hh1WQoWFHm33uugCz1WhxnnCjoLf, 5w9cN8seoRuhsNRMy1K8bgkNVrBxBjWwX3y87vujFZk9
+  categories:
+    - Gaming
+    - NFT
