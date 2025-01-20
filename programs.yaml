@@ -83,15 +83,6 @@
     - Nft Launchpad
     - Nft infra
 
-- name: Eclipse AI
-  description: Chatbot using Irys, Akash and Eclipse !
-  repo: https://github.com/Hugo-SEQUIER/eclipse-ai
-  icon: https://chat.trophe.net/logo_dark.png
-  framework: ReactJS
-  program_address: B1fKCaqtdN5SMKet292QD88t2jFThuk6FGVVNrNBKbt4
-  categories: 
-    - AI
-
 - name: solar_cp_swap
   description: Constant product AMM program on Eclipse optimized for straightforward pool deployment along with additional features and integrations
   repo: https://github.com/Solar-Studio/solar-cp-swap
