@@ -118,3 +118,23 @@
   program_address: iNvTyprs4TX8m6UeUEkeqDFjAL9zRCRWcexK9Sd4WEU
   categories:
     - DEX
+
+- name: Skate_Polymarket
+  description: Skate Polymarket enables eclipse users to directly bet on polymarket via eclipse. 
+  repo: https://github.com/Skate-Org/polymarket_skate
+  icon: https://avatars.githubusercontent.com/u/169433962?s=200&v=4
+  framework: Anchor
+  program_address: E98KDQN4NuhPcj4KD82pZj122KxYZ9dNhsNaAbPXLkeY
+  categories:
+    - Dapp
+
+- name: Astrol
+  description: Earn, Lend & Borrow with Ease on Eclipse!
+  repo: https://github.com/Astrol-Finance/astrolend-program
+  icon: https://avatars.githubusercontent.com/u/146329210?s=200&v=4
+  framework: Anchor
+  program_address: Astro1oWvtB7cBTwi3efLMFB47WXx7DJDQeoxi235kA
+  categories:
+    - DeFi
+    - Lending
+    - Borrowing
