@@ -1,3 +1,6 @@
+
+[![](https://github.com/Eclipse-Laboratories-Inc/program-registry/actions/workflows/auto-merge.yml/badge.svg)](https://github.com/Eclipse-Laboratories-Inc/program-registry/actions/workflows/auto-merge.yml)
+
 # Eclipse Program Registry
 
 Welcome to the Eclipse Solana Program Registry! This registry serves as a (not entirely) comprehensive list of programs running on the Eclipse network. Follow the steps below to add your program to the registry.
