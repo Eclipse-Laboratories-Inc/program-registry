@@ -1,5 +1,5 @@
-- name: canonical_bridge
-  description: The Eclipse Canonical Bridge facilitates depositing and withdrawing ether from the Eclipse Chain
+- name: Canonical Bridge
+  description: Facilitates depositing and withdrawing ether from the Eclipse Chain.
   repo: https://github.com/Eclipse-Laboratories-Inc/syzygy/tree/main/solana-programs/canonical_bridge
   icon: https://i.imgur.com/y0JEPfQ.png
   framework: Anchor
@@ -16,27 +16,27 @@
   categories:
     - DEX
 
-- name: EclipseGames
-  description: Support for the creation of mini-games on the Eclipse blockchain
+- name: Eclipse Games
+  description: A platform for creating mini-games on the Eclipse blockchain.
   repo: https://github.com/cryptohunter0x1/EclipseGames.git
   icon: https://i.imgur.com/YU8jVSb.jpeg
   framework: Anchor
   program_address: GYLvUjL1JUjFfqVvEK4C8EKFMh93B1ZzrQsQceRDEHeB
   categories:
-    - games
+    - Gaming
 
 - name: Save
-  description: save lending protocol
+  description: A lending protocol on Eclipse.
   repo: https://github.com/solendprotocol/solana-program-library
   icon: https://save.finance/assets/tokens/save.svg
-  framework: n/a
+  framework: N/A
   program_address: So1endDq2YkqhipRh3WViPa8hdiSpxWy6z3Z6tMCpAo
   categories:
-    - borrow
-    - lend
+    - Borrow
+    - Lend
 
 - name: Orca
-  description: Orca is the primary liquidity layer of Eclipse where users can quickly, affordably, and reliably transact on a peer-to-peer basis trading or providing liquidity of SPL tokens.
+  description: The primary liquidity layer of Eclipse for peer-to-peer SPL token transactions.
   repo: https://github.com/orca-so/whirlpools
   icon: https://i.imgur.com/eTO4KwA.png
   framework: Anchor
@@ -45,7 +45,7 @@
     - DEX
 
 - name: Blip Radar
-  description: Send messages to any wallet
+  description: Enables sending messages to any wallet on Eclipse.
   repo: https://github.com/Eclipse-Validators/blip-radar
   icon: https://avatars.githubusercontent.com/u/177390705?v=4
   framework: Anchor
@@ -54,8 +54,8 @@
     - NFT
     - Messaging
 
-- name: sharp_prediction
-  description: Sharp is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
+- name: Sharp Prediction
+  description: A price prediction platform where users can wager on asset price movements.
   repo: https://github.com/endlesstechjourney/decalls-public
   icon: https://github.com/endlesstechjourney/decalls-public/blob/main/Logomark.png
   framework: Anchor
@@ -63,8 +63,8 @@
   categories:
     - Dapp
 
-- name: sharp_revshare
-  description: Sharp is the ultimate price prediction platform on Eclipse where anyone can wager on whether the price of an asset will rise or fall within a specific period with winners getting all the prize pool
+- name: Sharp Revshare
+  description: Revenue-sharing extension for Sharp Prediction.
   repo: https://github.com/endlesstechjourney/decalls-public
   icon: https://github.com/endlesstechjourney/decalls-public/blob/main/Logomark.png
   framework: Anchor
@@ -73,18 +73,18 @@
     - Dapp
 
 - name: Blobscriptions
-  description: Blobscription is a NFT Launchpad and Marketplace that provides infrastructure for a novel open Standard for NFTs and Inscriptions on Data Availability Layers
+  description: NFT Launchpad and Marketplace supporting inscriptions on Data Availability Layers.
   repo: https://github.com/blobscriptions/blobscriptions
   icon: https://blobscriptions.xyz/blobscriptions-logo.png
   framework: NextJS
   program_address: ""
   categories:
     - NFT Marketplace
-    - Nft Launchpad
-    - Nft infra
+    - NFT Launchpad
+    - NFT Infrastructure
 
-- name: solar_cp_swap
-  description: Constant product AMM program on Eclipse optimized for straightforward pool deployment along with additional features and integrations
+- name: Solar CP Swap
+  description: Constant product AMM optimized for pool deployment and integrations.
   repo: https://github.com/Solar-Studio/solar-cp-swap
   icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
   framework: Anchor
@@ -92,8 +92,8 @@
   categories:
     - DEX
 
-- name: solar_clmm
-  description: solar-clmm is concentrated liquidity market maker (CLMM) program built for the Eclipse Blockchain.
+- name: Solar CLMM
+  description: Concentrated liquidity market maker (CLMM) on Eclipse.
   repo: https://github.com/Solar-Studio/solar-clmm
   icon: https://avatars.githubusercontent.com/u/184900682?s=200&v=4
   framework: Anchor
@@ -102,7 +102,7 @@
     - DEX
 
 - name: Invariant
-  description: Invariant is the first-ever DEX on Eclipse and the first to leverage the Concentrated Liquidity model. It provides highly efficient, cost-effective, and scalable trading, maximizing capital efficiency and enhancing overall liquidity.
+  description: The first DEX on Eclipse using the Concentrated Liquidity model for efficient trading.
   repo: https://github.com/invariant-labs/protocol-eclipse
   icon: https://invariant.app/logo.png
   framework: Anchor
@@ -110,8 +110,8 @@
   categories:
     - DEX
 
-- name: Skate_Polymarket
-  description: Skate Polymarket enables eclipse users to directly bet on polymarket via eclipse. 
+- name: Skate Polymarket
+  description: Enables betting on Polymarket directly via Eclipse.
   repo: https://github.com/Skate-Org/polymarket_skate
   icon: https://avatars.githubusercontent.com/u/169433962?s=200&v=4
   framework: Anchor
@@ -120,7 +120,7 @@
     - Dapp
 
 - name: Astrol
-  description: Earn, Lend & Borrow with Ease on Eclipse!
+  description: Platform for earning, lending, and borrowing on Eclipse.
   repo: https://github.com/Astrol-Finance/astrolend-program
   icon: https://avatars.githubusercontent.com/u/146329210?s=200&v=4
   framework: Anchor
@@ -131,7 +131,7 @@
     - Borrowing
 
 - name: Frost Mammoth
-  description: Free the mammoth!
+  description: A gaming and NFT optimizer project.
   repo: https://github.com/Hugo-SEQUIER/mammouth-ts
   icon: https://frostmammoth.xyz/favicon.ico
   framework: Anchor
