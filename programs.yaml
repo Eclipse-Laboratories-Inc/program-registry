@@ -139,3 +139,24 @@
   categories:
     - Gaming
     - NFT
+
+- name: Fight Horse
+  description: Native Launchpad on Eclipse mainnet.
+  repo: https://github.com/memewhales
+  icon: https://eclipse.fight.horse/favicon.ico
+  framework: Anchor
+  program_address: 7X3YmPcRu4V5GKxeFvC9MQq4bemCdR5MWea5tVs62bM9
+  categories:
+    - Launchpad
+    - DEX
+
+- name: Fight Horse Claimable
+  description: Native Launchpad on Eclipse mainnet.
+  repo: https://github.com/memewhales
+  icon: https://eclipse.fight.horse/favicon.ico
+  framework: Anchor
+  program_address: 12dkKG2P3DznT4BvvMYu1xNmVTZ6ezPgNNRPzZFUmh58
+  categories:
+    - Launchpad
+    - DEX
+
